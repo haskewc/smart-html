@@ -5,7 +5,7 @@ err = 2, warn = 7, info = 0
 $--
 Generated $--. FHIR version $-- for smart.who.int.dak-pnc#$-- (canonical = http://smart.who.int/dak-pnc)
  Build Errors : 0 / 4 / 0
- C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\resources\ImplementationGuide-smart.who.int.dak-pnc : 2 / 3 / 1
+ C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\resources\ImplementationGuide-smart.who.int.dak-pnc : 2 / 3 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide

@@ -13,7 +13,7 @@
       "status" : "release",
       "sequence" : "Releases",
       "fhirversion" : "4.0.1",
-      "date" : "2025-07-11",
+      "date" : "2025-08-07",
       "current" : true,
       "desc" : "0.9.9 Draft Release"
     }

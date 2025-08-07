@@ -1,364 +1,339 @@
-FHIR IG Publisher Version 2.0.8 (Git# e7d965b03a28). Built 2025-06-27T22:18:09.321Z (13 days old)
-Detected Java version: 17.0.7 from c:\work\jdk-17.0.7 on amd64 (64bit). 4096MB available
-dir = C:\work\release\webroot, path = C:\Python313\Scripts\;C:\Python313\;C:\Ruby32-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Recovery\OEM\Backup\;c:\work\jdk-17.0.7\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\VSCodium\bin;C:\Program Files\Git\cmd;C:\Program Files\maven\bin;C:\Program Files\Meld\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jose\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Program Files\Git LFS;C:\Users\Jose\AppData\Local\Microsoft\WindowsApps;C:\Users\Jose\AppData\Local\GitHubDesktop\bin;C:\Users\Jose\AppData\Roaming\npm;C:\Program Files\7-Zip;C:\Users\Jose\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\Jose\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jose\go\bin
-Parameters: -go-publish -package-cache-folder C:\work\release\fhir-package-cache -source C:\work\release\source -web C:\work\release\webroot -temp C:\work\release\temp -registry C:\work\release\ig-registry\fhir-ig-list.json -history C:\work\release\history-template -templates C:\work\release\webroot\templates
+FHIR IG Publisher Version 2.0.9 (Git# 85234fcd604f). Built 2025-07-11T21:09:16.247Z (26 days old)
+Detected Java version: 17.0.7 from C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot on amd64 (64bit). 4096MB available
+dir = C:\work\ig-pub_utils\release-pub, path = C:\Python313\Scripts\;C:\Python313\;C:\Ruby32-x64\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\VSCodium\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Program Files\Meld\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\josec\AppData\Local\Microsoft\WindowsApps;C:\Users\josec\AppData\Local\GitHubDesktop\bin;C:\Program Files\7-Zip;C:\Users\josec\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\josec\AppData\Roaming\npm
+Parameters: -go-publish -package-cache-folder C:\work\ig-pub_utils\release-pub\fhir-package-cache -source C:\work\ig-pub_utils\release-pub\source -web C:\work\ig-pub_utils\release-pub\webroot -temp C:\work\ig-pub_utils\release-pub\temp -registry C:\work\ig-pub_utils\release-pub\ig-registry\fhir-ig-list.json -history C:\work\ig-pub_utils\release-pub\history-template -templates C:\work\ig-pub_utils\release-pub\webroot\templates
 ---------------
-Publication Run: publish C:\work\release\source to C:\work\release\webroot
+Publication Run: publish C:\work\ig-pub_utils\release-pub\source to C:\work\ig-pub_utils\release-pub\webroot
 Relative directory for IG is '\dak-pnc'
 ===== Web Publication Run Details ===============================
- Source IG: smart.who.int.dak-pnc#0.9.9 : http://smart.who.int/dak-pnc (R4) from C:\work\release\source
-All checks passed. Do the publication build from C:\work\release\source and publish to C:\work\release\temp\web-root\run-20250711\dak-pnc
-Prepare Build space in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9
-Build IG at C:\work\release\source: final copy suitable for publication (in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9)
-FHIR IG Publisher Version 2.0.8 (Git# e7d965b03a28). Built 2025-06-27T22:18:09.321Z (13 days old)   
-Detected Java version: 17.0.7 from c:\work\jdk-17.0.7 on Windows 11/amd64 (64bit). 4096MB available 
-dir = C:\work\release\webroot, path = C:\Python313\Scripts\;C:\Python313\;C:\Ruby32-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Recovery\OEM\Backup\;c:\work\jdk-17.0.7\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\VSCodium\bin;C:\Program Files\Git\cmd;C:\Program Files\maven\bin;C:\Program Files\Meld\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jose\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Program Files\Git LFS;C:\Users\Jose\AppData\Local\Microsoft\WindowsApps;C:\Users\Jose\AppData\Local\GitHubDesktop\bin;C:\Users\Jose\AppData\Roaming\npm;C:\Program Files\7-Zip;C:\Users\Jose\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\Jose\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jose\go\bin
-Parameters: -ig C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9 -resetTx -publish http://smart.who.int/dak-pnc/v0.9.9 -no-exit
+ Source IG: smart.who.int.dak-pnc#0.9.9 : http://smart.who.int/dak-pnc (R4) from C:\work\ig-pub_utils\release-pub\source
+All checks passed. Do the publication build from C:\work\ig-pub_utils\release-pub\source and publish to C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc
+Prepare Build space in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9
+Build IG at C:\work\ig-pub_utils\release-pub\source: final copy suitable for publication (in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9)
+FHIR IG Publisher Version 2.0.9 (Git# 85234fcd604f). Built 2025-07-11T21:09:16.247Z (26 days old)   
+Detected Java version: 17.0.7 from C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot on Windows 11/amd64 (64bit). 4096MB available
+dir = C:\work\ig-pub_utils\release-pub, path = C:\Python313\Scripts\;C:\Python313\;C:\Ruby32-x64\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\VSCodium\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Program Files\Meld\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\josec\AppData\Local\Microsoft\WindowsApps;C:\Users\josec\AppData\Local\GitHubDesktop\bin;C:\Program Files\7-Zip;C:\Users\josec\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\josec\AppData\Roaming\npm
+Parameters: -ig C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9 -resetTx -publish http://smart.who.int/dak-pnc/v0.9.9 -no-exit
 Character encoding = UTF-8 / UTF-8                                                                  
-Start Clock @ sexta-feira, 11 de julho de 2025 às 09:27:53 Hora de verão da Europa Central (2025-07-11T09:27:53+02:00)
+Start Clock @ quinta-feira, 7 de agosto de 2025 às 22:29:45 Hora de verão da Europa Central (2025-08-07T22:29:45+02:00)
                                                                                                     
-Build FHIR IG from C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9                        (00:00.023 / 00:00.024, 42Mb)
-Build Formal Publication package, intended for http://smart.who.int/dak-pnc/v0.9.9                   (00:00.002 / 00:00.027, 42Mb)
-API keys loaded from C:\Users\Jose\.fhir\fhir-settings.json                                          (00:00.001 / 00:00.028, 42Mb)
-Package Cache: C:\Users\Jose\.fhir\packages                                                          (00:00.003 / 00:00.031, 42Mb)
-Run Sushi on C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9                              (00:00.010 / 00:00.041, 42Mb)
-Sushi: info  Running SUSHI v3.16.3 (implements FHIR Shorthand specification v3.0.0)                  (00:00.636 / 00:00.678, 44Mb)
-Sushi: info  Arguments:                                                                              (00:00.001 / 00:00.679, 44Mb)
-Sushi: info    --require-latest                                                                      (00:00.000 / 00:00.680, 44Mb)
-Sushi: info    --out C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9                      (00:00.000 / 00:00.681, 44Mb)
-Sushi: info    C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9                            (00:00.000 / 00:00.681, 44Mb)
-Sushi: info  Using configuration file: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\sushi-config.yaml (00:00.731 / 00:01.413, 44Mb)
-Sushi: info  Importing FSH text...                                                                   (00:00.061 / 00:01.474, 44Mb)
-Sushi: info  Preprocessed 3 documents with 15 aliases.                                               (00:00.015 / 00:01.489, 44Mb)
-Sushi: info  Imported 0 definitions and 0 instances.                                                 (00:00.001 / 00:01.491, 44Mb)
-Sushi: info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources                             (00:00.050 / 00:01.541, 44Mb)
-Sushi: info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.5.0                          (00:00.398 / 00:01.940, 44Mb)
-Sushi: info  Loaded hl7.fhir.uv.tools.r4#0.5.0 with 88 resources                                     (00:00.033 / 00:01.973, 44Mb)
-Sushi: info  Resolved hl7.terminology.r4#latest to concrete version 6.5.0                            (00:00.085 / 00:02.059, 44Mb)
-Sushi: info  Loaded hl7.terminology.r4#6.5.0 with 4392 resources                                     (00:01.069 / 00:03.129, 44Mb)
-Sushi: info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.2.0                     (00:00.079 / 00:03.208, 44Mb)
-Sushi: info  Loaded hl7.fhir.uv.extensions.r4#5.2.0 with 759 resources                               (00:00.186 / 00:03.395, 44Mb)
-Sushi: info  Loaded smart.who.int.base#0.1.0 with 17 resources                                       (00:00.009 / 00:03.404, 44Mb)
-Sushi: info  Loaded hl7.fhir.r4.core#4.0.1 with 4578 resources                                       (00:00.925 / 00:04.330, 44Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\examples. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.004 / 00:04.334, 44Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\extensions. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.336, 44Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\models. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.002 / 00:04.339, 44Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\profiles. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.341, 44Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\resources. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.003 / 00:04.344, 44Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\vocabulary. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.345, 44Mb)
-Sushi: info  Loaded virtual package sushi-local#LOCAL with 0 resources                               (00:00.001 / 00:04.346, 44Mb)
-Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.003 / 00:04.350, 44Mb)
-Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.003 / 00:04.353, 44Mb)
-Sushi: info  Exported 0 FHIR resources as JSON.                                                      (00:00.000 / 00:04.353, 44Mb)
-Sushi: info  Assembling Implementation Guide sources...                                              (00:00.001 / 00:04.355, 44Mb)
-Sushi: info  Generated ImplementationGuide-smart.who.int.dak-pnc.json                                (00:00.027 / 00:04.383, 44Mb)
-Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.001 / 00:04.384, 44Mb)
-Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.000 / 00:04.385, 44Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:04.385, 44Mb)
-Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.000 / 00:04.386, 44Mb)
-Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:04.387, 44Mb)
-Sushi: | |       0       |      0       |      0       |       0       | |                           (00:00.000 / 00:04.388, 44Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:04.389, 44Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:04.390, 44Mb)
-Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.000 / 00:04.391, 44Mb)
-Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:04.392, 44Mb)
-Sushi: | |         0          |         0         |         0          | |                           (00:00.000 / 00:04.393, 44Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:04.393, 44Mb)
-Sushi: |                                                                 |                           (00:00.001 / 00:04.395, 44Mb)
-Sushi: ===================================================================                           (00:00.000 / 00:04.395, 44Mb)
-Sushi: | Cool and So-fish-ticated!              0 Errors      0 Warnings |                           (00:00.000 / 00:04.396, 44Mb)
-Sushi: ===================================================================                           (00:00.000 / 00:04.396, 44Mb)
-Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.330 / 00:04.727, 56Mb)
-Load Template from who.template.root#current                                                         (00:00.373 / 00:05.101, 34Mb)
- Load Template from fhir.base.template#current                                                       (00:01.873 / 00:06.974, 44Mb)
-Root directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9                           (00:02.865 / 00:09.839, 244Mb)
-Terminology Cache is at C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input-cache\txcache. Clearing now (00:01.945 / 00:11.784, 265Mb)
+Build FHIR IG from C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9       (00:00.045 / 00:00.046, 37Mb)
+Build Formal Publication package, intended for http://smart.who.int/dak-pnc/v0.9.9                   (00:00.006 / 00:00.052, 37Mb)
+API keys loaded from C:\Users\josec\.fhir\fhir-settings.json                                         (00:00.003 / 00:00.055, 37Mb)
+Package Cache: C:\Users\josec\.fhir\packages                                                         (00:00.008 / 00:00.064, 37Mb)
+Run Sushi on C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9             (00:00.016 / 00:00.081, 37Mb)
+Sushi: info  Running SUSHI v3.16.3 (implements FHIR Shorthand specification v3.0.0)                  (00:01.050 / 00:01.132, 40Mb)
+Sushi: info  Arguments:                                                                              (00:00.002 / 00:01.134, 40Mb)
+Sushi: info    --require-latest                                                                      (00:00.002 / 00:01.136, 40Mb)
+Sushi: info    --out C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9     (00:00.002 / 00:01.139, 40Mb)
+Sushi: info    C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9           (00:00.002 / 00:01.141, 40Mb)
+Sushi: info  Using configuration file: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\sushi-config.yaml (00:01.656 / 00:02.798, 40Mb)
+Sushi: info  Importing FSH text...                                                                   (00:00.117 / 00:02.915, 40Mb)
+Sushi: info  Preprocessed 3 documents with 15 aliases.                                               (00:00.029 / 00:02.945, 40Mb)
+Sushi: info  Imported 0 definitions and 0 instances.                                                 (00:00.002 / 00:02.947, 40Mb)
+Sushi: info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources                             (00:00.110 / 00:03.058, 40Mb)
+Sushi: info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.8.0                          (00:00.948 / 00:04.006, 40Mb)
+Sushi: info  Loaded hl7.fhir.uv.tools.r4#0.8.0 with 110 resources                                    (00:00.048 / 00:04.055, 40Mb)
+Sushi: info  Resolved hl7.terminology.r4#latest to concrete version 6.5.0                            (00:00.119 / 00:04.175, 40Mb)
+Sushi: info  Loaded hl7.terminology.r4#6.5.0 with 4392 resources                                     (00:01.547 / 00:05.722, 40Mb)
+Sushi: info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.2.0                     (00:00.127 / 00:05.850, 40Mb)
+Sushi: info  Loaded hl7.fhir.uv.extensions.r4#5.2.0 with 759 resources                               (00:00.255 / 00:06.105, 40Mb)
+Sushi: info  Loaded smart.who.int.base#0.1.0 with 17 resources                                       (00:00.015 / 00:06.120, 40Mb)
+Sushi: info  Loaded hl7.fhir.r4.core#4.0.1 with 4578 resources                                       (00:01.382 / 00:07.503, 40Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\examples. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.005 / 00:07.508, 40Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\extensions. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.003 / 00:07.511, 40Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\models. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.002 / 00:07.514, 40Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\profiles. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.002 / 00:07.517, 40Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\resources. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.003 / 00:07.520, 40Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\vocabulary. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.003 / 00:07.524, 40Mb)
+Sushi: info  Loaded virtual package sushi-local#LOCAL with 0 resources                               (00:00.003 / 00:07.527, 40Mb)
+Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.001 / 00:07.528, 40Mb)
+Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.002 / 00:07.531, 40Mb)
+Sushi: info  Exported 0 FHIR resources as JSON.                                                      (00:00.001 / 00:07.532, 40Mb)
+Sushi: info  Assembling Implementation Guide sources...                                              (00:00.001 / 00:07.534, 40Mb)
+Sushi: info  Generated ImplementationGuide-smart.who.int.dak-pnc.json                                (00:00.034 / 00:07.568, 40Mb)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.001 / 00:07.570, 40Mb)
+Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.001 / 00:07.572, 40Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:07.574, 40Mb)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.001 / 00:07.575, 40Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.002 / 00:07.577, 40Mb)
+Sushi: | |       0       |      0       |      0       |       0       | |                           (00:00.001 / 00:07.579, 40Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:07.580, 40Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:07.582, 40Mb)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.002 / 00:07.584, 40Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.002 / 00:07.586, 40Mb)
+Sushi: | |         0          |         0         |         0          | |                           (00:00.001 / 00:07.588, 40Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:07.590, 40Mb)
+Sushi: |                                                                 |                           (00:00.001 / 00:07.591, 40Mb)
+Sushi: ===================================================================                           (00:00.001 / 00:07.593, 40Mb)
+Sushi: | Nice job! Are you hooked yet?          0 Errors      0 Warnings |                           (00:00.002 / 00:07.595, 40Mb)
+Sushi: ===================================================================                           (00:00.001 / 00:07.597, 40Mb)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.688 / 00:08.285, 20Mb)
+Load Template from who.template.root#current                                                         (00:00.828 / 00:09.114, 42Mb)
+ Load Template from fhir.base.template#current                                                       (00:07.868 / 00:16.982, 39Mb)
+Root directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9          (00:05.741 / 00:22.724, 88Mb)
+Terminology Cache is at C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input-cache\txcache. Clearing now (00:07.671 / 00:30.395, 110Mb)
 Core Package hl7.fhir.r4.core#4.0.1
-Signing Certificate: RSA key for Subject: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us from: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us
-Running Terminology Log: C:\Users\Jose\AppData\Local\Temp\ohfu-fhir-ig-6602996164251153362.html
-Connect to Terminology Server at http://tx.fhir.org                                                  (00:02.874 / 00:14.659, 290Mb)
+Running Terminology Log: C:\Users\josec\AppData\Local\Temp\ohfu-fhir-ig-870449105219085810.html
+Connect to Terminology Server at http://tx.fhir.org                                                  (00:07.658 / 00:38.053, 330Mb)
 [39mLoad Package hl7.fhir.pubpack#0.2.3
 [0;39m[39mLoad Package hl7.fhir.xver-extensions#0.1.0
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.fhir.uv.extensions.r4 from server: https://packages2.fhir.org/packages
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.terminology.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.terminology.r4 from server: https://packages2.fhir.org/packages
 [0;39m[39mLoad Package hl7.terminology.r4#6.5.0
-[0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.2.0
+[0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.3.0-ballot-tc1
 [0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#1.0.0
 [0;39m[39mLoad Package hl7.terminology#5.5.0
 [0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.1.0
 [0;39m[39mLoad Package hl7.fhir.uv.cql#1.0.0
 [0;39m[39mLoad Package hl7.fhir.uv.crmi#1.0.0
-[0;39mIgnore Dependency on Core FHIR hl7.fhir.r4.examples#4.0.1, from package 'hl7.fhir.uv.sdc#3.0.0'      (00:10.503 / 00:25.163, 602Mb)
+[0;39mIgnore Dependency on Core FHIR hl7.fhir.r4.examples#4.0.1, from package 'hl7.fhir.uv.sdc#3.0.0'      (00:19.210 / 00:57.264, 580Mb)
 [39mLoad Package hl7.fhir.uv.sdc#3.0.0
 [0;39m[39mLoad Package smart.who.int.base#0.1.0
 [0;39m[39mLoad Package hl7.fhir.uv.tools.r4#0.5.0
 [0;39mLoad R5 Specials
-Initialization complete                                                                              (00:02.590 / 00:27.753, 734Mb)
-Load IG                                                                                              (00:00.001 / 00:27.754, 734Mb)
-Load Content                                                                                         (00:00.001 / 00:27.756, 734Mb)
-Using en-US as the default narrative language. (no language information in Implementation Guide)     (00:00.073 / 00:27.830, 739Mb)
-Process Loaded Resources                                                                             (00:00.102 / 00:27.932, 743Mb)
-Generating Snapshots                                                                                 (00:00.054 / 00:27.986, 750Mb)
-loadPrePages from FetchedFile[C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\fsh-generated\includes] as C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\fsh-generated\includes
-loadPrePages from FetchedFile[C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\data] as C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\data
-loadPrePages from FetchedFile[C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\pagecontent] as C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\pagecontent
-Fetch http://smart.who.int/dak-pnc/package-list.json for version check                               (00:00.110 / 00:28.097, 758Mb)
-Processing Conformance Resources                                                                     (00:00.101 / 00:28.198, 758Mb)
-Checking Language                                                                                    (00:00.001 / 00:28.199, 758Mb)
-Load Dependency Info                                                                                 (00:00.000 / 00:28.200, 758Mb)
-Load Info                                                                                            (00:00.001 / 00:28.202, 758Mb)
-Load Paths                                                                                           (00:00.000 / 00:28.203, 759Mb)
-Check R4 / R4B                                                                                       (00:00.000 / 00:28.203, 759Mb)
-Assign Comparison Ids                                                                                (00:00.009 / 00:28.213, 761Mb)
-Propagating status                                                                                   (00:00.001 / 00:28.214, 761Mb)
-Generating Narratives                                                                                (00:00.000 / 00:28.215, 761Mb)
-Validating Conformance Resources                                                                     (00:00.160 / 00:28.375, 777Mb)
-[33mError fetching https://packages2.fhir.org/packages/hl7.terminology.r4: Internal Server Error
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.terminology.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.terminology.r4 from server: https://packages2.fhir.org/packages
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4: Internal Server Error
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.fhir.uv.extensions.r4 from server: https://packages2.fhir.org/packages
-[0;39m[33mError fetching https://packages2.fhir.org/packages/smart.who.int.base: Internal Server Error
-[0;39m[33mError fetching https://packages2.fhir.org/packages/smart.who.int.base: Internal Server Error
-[0;39m[39mFailed to determine latest version of package smart.who.int.base from server: https://packages2.fhir.org/packages
-[0;39mCheck profiles & code systems                                                                        (00:12.348 / 00:40.724, 800Mb)
-Check realm rules                                                                                    (00:00.000 / 00:40.724, 800Mb)
-Previous Version Comparison                                                                          (00:00.000 / 00:40.725, 800Mb)
-Validating Resources                                                                                 (00:00.008 / 00:40.733, 801Mb)
-Processing Provenance Records                                                                        (00:00.000 / 00:40.734, 801Mb)
-Checking for Bundles to sign                                                                         (00:00.000 / 00:40.735, 801Mb)
-Generating Outputs in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output              (00:00.000 / 00:40.736, 801Mb)
-Generate Native Outputs                                                                              (00:00.369 / 00:41.105, 807Mb)
-Run Template                                                                                         (00:00.104 / 00:41.210, 820Mb)
-Generate HTML Outputs                                                                                (00:01.729 / 00:42.940, 862Mb)
-Generate Spreadsheets                                                                                (00:00.127 / 00:43.067, 877Mb)
-Generate Summaries                                                                                   (00:00.001 / 00:43.068, 877Mb)
-Generating Summary Outputs                                                                           (00:00.000 / 00:43.069, 877Mb)
-DB Cumulative Time invested: 00:00:00.77
-Sending Usage Stats to Server                                                                        (00:14.785 / 00:57.855, 1Gb)
-## Memory (MB): Use = 1200, Free = 255, Total = 1456, Max = 4096                                     (00:00.003 / 00:57.858, 1Gb)
-Reclaiming memory...                                                                                 (00:00.000 / 00:57.859, 1Gb)
-## Memory (MB): Use = 866, Free = 593, Total = 1460, Max = 4096                                      (00:00.148 / 00:58.008, 868Mb)
-Run jekyll: jekyll build --destination "C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output" (in folder C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\temp\pages) (00:00.002 / 00:58.010, 868Mb)
-Due to a known issue, Jekyll errors are lost between Java and Ruby in windows systems.               (00:00.001 / 00:58.012, 868Mb)
-If the build process hangs at this point, you have to go to a                                        (00:00.001 / 00:58.013, 868Mb)
-command prompt, and then run these two commands:                                                     (00:00.000 / 00:58.013, 868Mb)
-                                                                                                     (00:00.000 / 00:58.014, 868Mb)
-cd C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\temp\pages                             (00:00.001 / 00:58.016, 868Mb)
-jekyll build --destination "C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output"       (00:00.001 / 00:58.017, 868Mb)
-                                                                                                     (00:00.000 / 00:58.017, 868Mb)
-and then investigate why Jekyll has failed                                                           (00:00.002 / 00:58.020, 868Mb)
-Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.000 / 00:58.021, 868Mb)
-* A failure to produce a fragment that is already logged in the output above                         (00:00.000 / 00:58.022, 868Mb)
-* A reference to a manually edited file that hasn't been provided                                    (00:00.000 / 00:58.022, 868Mb)
-Jekyll: Source: C:/work/release/temp/ig-builds/smart.who.int.dak-pnc#0.9.9/temp/pages                (00:01.883 / 00:59.906, 872Mb)
-Jekyll: Generating...                                                                                (00:00.001 / 00:59.907, 872Mb)
-Jekyll: done in 1.099 seconds.                                                                       (00:01.097 / 01:01.005, 872Mb)
+Initialization complete                                                                              (00:05.653 / 01:02.918, 696Mb)
+Load IG                                                                                              (00:00.003 / 01:02.921, 696Mb)
+Load Content                                                                                         (00:00.002 / 01:02.923, 696Mb)
+Using en-US as the default narrative language. (no language information in Implementation Guide)     (00:00.122 / 01:03.046, 702Mb)
+Process Loaded Resources                                                                             (00:00.152 / 01:03.198, 705Mb)
+Generating Snapshots                                                                                 (00:00.082 / 01:03.280, 711Mb)
+loadPrePages from FetchedFile[C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\fsh-generated\includes] as C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\fsh-generated\includes
+loadPrePages from FetchedFile[C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\data] as C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\data
+loadPrePages from FetchedFile[C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\pagecontent] as C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\input\pagecontent
+Signing Certificate: RSA key for Subject: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us from: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us
+Fetch http://smart.who.int/dak-pnc/package-list.json for version check                               (00:00.270 / 01:03.551, 720Mb)
+Processing Conformance Resources                                                                     (00:00.323 / 01:03.875, 720Mb)
+Checking Language                                                                                    (00:00.002 / 01:03.878, 720Mb)
+Load Dependency Info                                                                                 (00:00.001 / 01:03.879, 720Mb)
+Load Info                                                                                            (00:00.002 / 01:03.881, 721Mb)
+Load Paths                                                                                           (00:00.001 / 01:03.883, 722Mb)
+Check R4 / R4B                                                                                       (00:00.003 / 01:03.887, 722Mb)
+Assign Comparison Ids                                                                                (00:00.027 / 01:03.914, 723Mb)
+Propagating status                                                                                   (00:00.002 / 01:03.916, 723Mb)
+Generating Narratives                                                                                (00:00.002 / 01:03.918, 723Mb)
+Validating Conformance Resources                                                                     (00:00.353 / 01:04.272, 739Mb)
+Check profiles & code systems                                                                        (00:54.072 / 01:58.344, 515Mb)
+Check realm rules                                                                                    (00:00.002 / 01:58.346, 515Mb)
+Previous Version Comparison                                                                          (00:00.002 / 01:58.349, 515Mb)
+Checking for Bundles to sign                                                                         (00:00.021 / 01:58.371, 515Mb)
+Validating Resources                                                                                 (00:00.001 / 01:58.373, 515Mb)
+Processing Provenance Records                                                                        (00:00.001 / 01:58.375, 515Mb)
+Generating Outputs in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output (00:00.001 / 01:58.377, 515Mb)
+Generate Native Outputs                                                                              (00:00.272 / 01:58.650, 521Mb)
+Run Template                                                                                         (00:00.228 / 01:58.878, 532Mb)
+Generate HTML Outputs                                                                                (00:02.422 / 02:01.300, 574Mb)
+Generate Spreadsheets                                                                                (00:00.194 / 02:01.495, 588Mb)
+Generate Summaries                                                                                   (00:00.001 / 02:01.497, 588Mb)
+Generating Summary Outputs                                                                           (00:00.001 / 02:01.498, 588Mb)
+DB Cumulative Time invested: 00:00:00.175
+Sending Usage Stats to Server                                                                        (00:37.849 / 02:39.349, 1Gb)
+## Memory (MB): Use = 1140, Free = 607, Total = 1748, Max = 4096                                     (00:00.006 / 02:39.355, 1Gb)
+Reclaiming memory...                                                                                 (00:00.002 / 02:39.357, 1Gb)
+## Memory (MB): Use = 821, Free = 926, Total = 1748, Max = 4096                                      (00:00.414 / 02:39.772, 822Mb)
+Run jekyll: jekyll build --destination "C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output" (in folder C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\temp\pages) (00:00.012 / 02:39.784, 822Mb)
+Due to a known issue, Jekyll errors are lost between Java and Ruby in windows systems.               (00:00.004 / 02:39.789, 822Mb)
+If the build process hangs at this point, you have to go to a                                        (00:00.002 / 02:39.792, 822Mb)
+command prompt, and then run these two commands:                                                     (00:00.004 / 02:39.796, 822Mb)
+                                                                                                     (00:00.003 / 02:39.801, 822Mb)
+cd C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\temp\pages            (00:00.003 / 02:39.803, 822Mb)
+jekyll build --destination "C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output" (00:00.003 / 02:39.807, 822Mb)
+                                                                                                     (00:00.002 / 02:39.810, 822Mb)
+and then investigate why Jekyll has failed                                                           (00:00.004 / 02:39.815, 822Mb)
+Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.004 / 02:39.819, 822Mb)
+* A failure to produce a fragment that is already logged in the output above                         (00:00.002 / 02:39.822, 822Mb)
+* A reference to a manually edited file that hasn't been provided                                    (00:00.002 / 02:39.825, 823Mb)
+Jekyll: Source: C:/work/ig-pub_utils/release-pub/temp/ig-builds/smart.who.int.dak-pnc#0.9.9/temp/pages (00:02.067 / 02:41.893, 826Mb)
+Jekyll: Generating...                                                                                (00:00.001 / 02:41.894, 826Mb)
+Jekyll: done in 1.608 seconds.                                                                       (00:01.605 / 02:43.500, 826Mb)
 [39m
 [0;39m[39mInstalling smart.who.int.dak-pnc#0.9.9
-[0;39mChecking Output HTML                                                                                 (00:00.582 / 01:01.587, 949Mb)
-found 616 files                                                                                      (00:00.009 / 01:01.596, 950Mb)
+[0;39mChecking Output HTML                                                                                 (00:01.447 / 02:44.948, 902Mb)
+found 616 files                                                                                      (00:00.021 / 02:44.970, 902Mb)
 .........................................
 .........................................
-  ... 616 html files, 0 pages invalid xhtml (0%)                                                     (00:00.764 / 01:02.361, 1Gb)
-  ... 1737 links, 0 broken links (0%)                                                                (00:00.001 / 01:02.362, 1Gb)
-Generate fragment-usage-analysis.csv                                                                 (00:00.000 / 01:02.363, 1Gb)
-Build final .zip                                                                                     (00:00.013 / 01:02.377, 1Gb)
-Final .zip built                                                                                     (00:00.764 / 01:03.141, 1Gb)
-Built. Times: loading: 00:00.442, generate: 00:40.140, narrative generation: 00:00.159, validation: 00:12.346, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:03.005, template: 00:01.745 (#3) (00:05.198 / 01:08.339, 1Gb)
-Generating QA                                                                                        (00:00.001 / 01:08.341, 1Gb)
-Validation output in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output\qa.html
-Errors: 2, Warnings: 7, Info: 0, Broken Links: 0 (00:00.078 / 01:08.420, 1Gb)
-Finished @ 7/11/25, 9:29 AM. Max Memory Used = 1Gb. Log file saved in c:\temp\fhir-ig-publisher-tmp.log (00:00.009 / 01:08.429, 1Gb)
-Prepare Build space in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone
+  ... 616 html files, 0 pages invalid xhtml (0%)                                                     (00:01.858 / 02:46.829, 1Gb)
+  ... 1737 links, 0 broken links (0%)                                                                (00:00.003 / 02:46.832, 1Gb)
+Generate fragment-usage-analysis.csv                                                                 (00:00.001 / 02:46.834, 1Gb)
+Build final .zip                                                                                     (00:00.017 / 02:46.851, 1Gb)
+Final .zip built                                                                                     (00:02.050 / 02:48.902, 1Gb)
+Built. Times: loading: 00:00.952, generate: 01:56.897, narrative generation: 00:00.350, validation: 00:54.069, realm-rules: 00:00.002, previous-version: 00:00.000, jekyll: 00:03.732, template: 00:02.454 (#3) (00:11.871 / 03:00.773, 880Mb)
+Generating QA                                                                                        (00:00.002 / 03:00.775, 880Mb)
+Validation output in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9\output\qa.html
+Errors: 2, Warnings: 7, Info: 0, Broken Links: 0 (00:00.129 / 03:00.905, 887Mb)
+Finished @ 8/7/25, 10:32 PM. Max Memory Used = 1Gb. Log file saved in c:\temp\fhir-ig-publisher-tmp.log (00:00.016 / 03:00.921, 888Mb)
+Prepare Build space in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone
 Sending usage stats failed: Connection timed out: connect
-Build IG at C:\work\release\source: final copy suitable for publication (in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone) (milestone build)
-FHIR IG Publisher Version 2.0.8 (Git# e7d965b03a28). Built 2025-06-27T22:18:09.321Z (13 days old)   
-Detected Java version: 17.0.7 from c:\work\jdk-17.0.7 on Windows 11/amd64 (64bit). 4096MB available 
-dir = C:\work\release\webroot, path = C:\Python313\Scripts\;C:\Python313\;C:\Ruby32-x64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Recovery\OEM\Backup\;c:\work\jdk-17.0.7\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\VSCodium\bin;C:\Program Files\Git\cmd;C:\Program Files\maven\bin;C:\Program Files\Meld\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\Jose\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Go\bin;C:\Program Files\Git LFS;C:\Users\Jose\AppData\Local\Microsoft\WindowsApps;C:\Users\Jose\AppData\Local\GitHubDesktop\bin;C:\Users\Jose\AppData\Roaming\npm;C:\Program Files\7-Zip;C:\Users\Jose\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Users\Jose\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Jose\go\bin
-Parameters: -ig C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone -publish http://smart.who.int/dak-pnc/v0.9.9 -milestone -no-exit
+Build IG at C:\work\ig-pub_utils\release-pub\source: final copy suitable for publication (in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone) (milestone build)
+FHIR IG Publisher Version 2.0.9 (Git# 85234fcd604f). Built 2025-07-11T21:09:16.247Z (26 days old)   
+Detected Java version: 17.0.7 from C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot on Windows 11/amd64 (64bit). 4096MB available
+dir = C:\work\ig-pub_utils\release-pub, path = C:\Python313\Scripts\;C:\Python313\;C:\Ruby32-x64\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Microsoft\jdk-17.0.7.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\VSCodium\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Program Files\Meld\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\josec\AppData\Local\Microsoft\WindowsApps;C:\Users\josec\AppData\Local\GitHubDesktop\bin;C:\Program Files\7-Zip;C:\Users\josec\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\josec\AppData\Roaming\npm
+Parameters: -ig C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone -publish http://smart.who.int/dak-pnc/v0.9.9 -milestone -no-exit
 Character encoding = UTF-8 / UTF-8                                                                  
-Start Clock @ sexta-feira, 11 de julho de 2025 às 09:29:20 Hora de verão da Europa Central (2025-07-11T09:29:20+02:00)
+Start Clock @ quinta-feira, 7 de agosto de 2025 às 22:33:28 Hora de verão da Europa Central (2025-08-07T22:33:28+02:00)
                                                                                                     
-Build FHIR IG from C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone              (00:00.012 / 00:00.012, 886Mb)
-Build Formal Publication package, intended for http://smart.who.int/dak-pnc/v0.9.9                   (00:00.000 / 00:00.013, 886Mb)
-API keys loaded from C:\Users\Jose\.fhir\fhir-settings.json                                          (00:00.000 / 00:00.013, 886Mb)
-Package Cache: C:\Users\Jose\.fhir\packages                                                          (00:00.000 / 00:00.014, 886Mb)
-Run Sushi on C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone                    (00:00.009 / 00:00.024, 886Mb)
-Sushi: info  Running SUSHI v3.16.3 (implements FHIR Shorthand specification v3.0.0)                  (00:00.616 / 00:00.640, 887Mb)
-Sushi: info  Arguments:                                                                              (00:00.001 / 00:00.641, 887Mb)
-Sushi: info    --require-latest                                                                      (00:00.000 / 00:00.642, 887Mb)
-Sushi: info    --out C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone            (00:00.000 / 00:00.643, 887Mb)
-Sushi: info    C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone                  (00:00.001 / 00:00.644, 887Mb)
-Sushi: info  Using configuration file: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\sushi-config.yaml (00:00.741 / 00:01.385, 887Mb)
-Sushi: info  Importing FSH text...                                                                   (00:00.067 / 00:01.453, 887Mb)
-Sushi: info  Preprocessed 3 documents with 15 aliases.                                               (00:00.015 / 00:01.468, 887Mb)
-Sushi: info  Imported 0 definitions and 0 instances.                                                 (00:00.001 / 00:01.470, 887Mb)
-Sushi: info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources                             (00:00.057 / 00:01.527, 887Mb)
-Sushi: info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.5.0                          (00:00.356 / 00:01.883, 887Mb)
-Sushi: info  Loaded hl7.fhir.uv.tools.r4#0.5.0 with 88 resources                                     (00:00.033 / 00:01.917, 887Mb)
-Sushi: info  Resolved hl7.terminology.r4#latest to concrete version 6.5.0                            (00:00.080 / 00:01.997, 887Mb)
-Sushi: info  Loaded hl7.terminology.r4#6.5.0 with 4392 resources                                     (00:01.022 / 00:03.019, 887Mb)
-Sushi: info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.2.0                     (00:00.075 / 00:03.094, 887Mb)
-Sushi: info  Loaded hl7.fhir.uv.extensions.r4#5.2.0 with 759 resources                               (00:00.190 / 00:03.285, 887Mb)
-Sushi: info  Loaded smart.who.int.base#0.1.0 with 17 resources                                       (00:00.009 / 00:03.294, 887Mb)
-Sushi: info  Loaded hl7.fhir.r4.core#4.0.1 with 4578 resources                                       (00:00.877 / 00:04.171, 887Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\examples. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.004 / 00:04.176, 887Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\extensions. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.178, 887Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\models. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.180, 887Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\profiles. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.182, 887Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\resources. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.001 / 00:04.183, 887Mb)
-Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\vocabulary. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.002 / 00:04.185, 887Mb)
-Sushi: info  Loaded virtual package sushi-local#LOCAL with 0 resources                               (00:00.002 / 00:04.188, 887Mb)
-Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.001 / 00:04.190, 887Mb)
-Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.002 / 00:04.192, 887Mb)
-Sushi: info  Exported 0 FHIR resources as JSON.                                                      (00:00.000 / 00:04.193, 887Mb)
-Sushi: info  Assembling Implementation Guide sources...                                              (00:00.001 / 00:04.195, 887Mb)
-Sushi: info  Generated ImplementationGuide-smart.who.int.dak-pnc.json                                (00:00.023 / 00:04.218, 887Mb)
-Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.000 / 00:04.219, 887Mb)
-Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.000 / 00:04.220, 887Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.001 / 00:04.221, 887Mb)
-Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.000 / 00:04.222, 887Mb)
-Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:04.222, 887Mb)
-Sushi: | |       0       |      0       |      0       |       0       | |                           (00:00.001 / 00:04.223, 887Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:04.224, 887Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:04.225, 887Mb)
-Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.000 / 00:04.225, 887Mb)
-Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:04.226, 887Mb)
-Sushi: | |         0          |         0         |         0          | |                           (00:00.001 / 00:04.227, 887Mb)
-Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:04.228, 887Mb)
-Sushi: |                                                                 |                           (00:00.000 / 00:04.229, 887Mb)
-Sushi: ===================================================================                           (00:00.000 / 00:04.229, 887Mb)
-Sushi: | Ex-clam-ation point!                   0 Errors      0 Warnings |                           (00:00.000 / 00:04.230, 887Mb)
-Sushi: ===================================================================                           (00:00.000 / 00:04.231, 887Mb)
-Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.012 / 00:04.243, 887Mb)
-Load Template from who.template.root#current                                                         (00:00.098 / 00:04.341, 889Mb)
- Load Template from fhir.base.template#current                                                       (00:01.329 / 00:05.671, 937Mb)
-Root directory: C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone                 (00:01.864 / 00:07.535, 1Gb)
-Terminology Cache is at C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input-cache\txcache. 4 files in cache (00:01.724 / 00:09.260, 1Gb)
+Build FHIR IG from C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone (00:00.018 / 00:00.018, 943Mb)
+Build Formal Publication package, intended for http://smart.who.int/dak-pnc/v0.9.9                   (00:00.002 / 00:00.021, 943Mb)
+API keys loaded from C:\Users\josec\.fhir\fhir-settings.json                                         (00:00.001 / 00:00.022, 943Mb)
+Package Cache: C:\Users\josec\.fhir\packages                                                         (00:00.001 / 00:00.024, 943Mb)
+Run Sushi on C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone   (00:00.006 / 00:00.031, 943Mb)
+Sushi: info  Running SUSHI v3.16.3 (implements FHIR Shorthand specification v3.0.0)                  (00:00.820 / 00:00.851, 944Mb)
+Sushi: info  Arguments:                                                                              (00:00.001 / 00:00.853, 944Mb)
+Sushi: info    --require-latest                                                                      (00:00.001 / 00:00.854, 944Mb)
+Sushi: info    --out C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone (00:00.001 / 00:00.856, 944Mb)
+Sushi: info    C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone (00:00.001 / 00:00.858, 944Mb)
+Sushi: info  Using configuration file: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\sushi-config.yaml (00:01.154 / 00:02.013, 944Mb)
+Sushi: info  Importing FSH text...                                                                   (00:00.087 / 00:02.100, 944Mb)
+Sushi: info  Preprocessed 3 documents with 15 aliases.                                               (00:00.026 / 00:02.127, 944Mb)
+Sushi: info  Imported 0 definitions and 0 instances.                                                 (00:00.001 / 00:02.129, 944Mb)
+Sushi: info  Loaded virtual package sushi-r5forR4#1.0.0 with 7 resources                             (00:00.096 / 00:02.225, 944Mb)
+Sushi: info  Resolved hl7.fhir.uv.tools.r4#latest to concrete version 0.8.0                          (00:00.637 / 00:02.863, 944Mb)
+Sushi: info  Loaded hl7.fhir.uv.tools.r4#0.8.0 with 110 resources                                    (00:00.143 / 00:03.006, 944Mb)
+Sushi: info  Resolved hl7.terminology.r4#latest to concrete version 6.5.0                            (00:00.496 / 00:03.502, 944Mb)
+Sushi: info  Loaded hl7.terminology.r4#6.5.0 with 4392 resources                                     (00:02.154 / 00:05.657, 944Mb)
+Sushi: info  Resolved hl7.fhir.uv.extensions.r4#latest to concrete version 5.2.0                     (00:00.156 / 00:05.814, 944Mb)
+Sushi: info  Loaded hl7.fhir.uv.extensions.r4#5.2.0 with 759 resources                               (00:00.330 / 00:06.144, 944Mb)
+Sushi: info  Loaded smart.who.int.base#0.1.0 with 17 resources                                       (00:00.024 / 00:06.169, 944Mb)
+Sushi: info  Loaded hl7.fhir.r4.core#4.0.1 with 4578 resources                                       (00:01.396 / 00:07.565, 944Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\examples. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.007 / 00:07.572, 944Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\extensions. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.006 / 00:07.578, 944Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\models. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.004 / 00:07.584, 944Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\profiles. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.005 / 00:07.589, 944Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\resources. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.005 / 00:07.594, 944Mb)
+Sushi: info  Found 1 non-JSON / non-XML file(s) in directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\vocabulary. Only resource files with JSON or XML extensions are supported. To see the skipped files in the logs, use debug logging. (00:00.005 / 00:07.599, 944Mb)
+Sushi: info  Loaded virtual package sushi-local#LOCAL with 0 resources                               (00:00.004 / 00:07.604, 944Mb)
+Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.001 / 00:07.606, 944Mb)
+Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.002 / 00:07.608, 944Mb)
+Sushi: info  Exported 0 FHIR resources as JSON.                                                      (00:00.002 / 00:07.611, 944Mb)
+Sushi: info  Assembling Implementation Guide sources...                                              (00:00.001 / 00:07.613, 944Mb)
+Sushi: info  Generated ImplementationGuide-smart.who.int.dak-pnc.json                                (00:00.033 / 00:07.647, 944Mb)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.004 / 00:07.651, 944Mb)
+Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.002 / 00:07.654, 944Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.004 / 00:07.658, 944Mb)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.002 / 00:07.661, 944Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.003 / 00:07.664, 944Mb)
+Sushi: | |       0       |      0       |      0       |       0       | |                           (00:00.002 / 00:07.666, 944Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.002 / 00:07.669, 944Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.002 / 00:07.671, 944Mb)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.002 / 00:07.674, 944Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.002 / 00:07.676, 944Mb)
+Sushi: | |         0          |         0         |         0          | |                           (00:00.002 / 00:07.678, 944Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.002 / 00:07.681, 944Mb)
+Sushi: |                                                                 |                           (00:00.002 / 00:07.683, 944Mb)
+Sushi: ===================================================================                           (00:00.002 / 00:07.685, 944Mb)
+Sushi: | Why pun? Just for for the halibut.     0 Errors      0 Warnings |                           (00:00.003 / 00:07.688, 944Mb)
+Sushi: ===================================================================                           (00:00.003 / 00:07.692, 944Mb)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.024 / 00:07.716, 945Mb)
+Load Template from who.template.root#current                                                         (00:00.273 / 00:07.990, 946Mb)
+ Load Template from fhir.base.template#current                                                       (00:05.508 / 00:13.498, 994Mb)
+Root directory: C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone (00:03.913 / 00:17.412, 1Gb)
+Terminology Cache is at C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input-cache\txcache. 4 files in cache (00:04.810 / 00:22.223, 1Gb)
 Core Package hl7.fhir.r4.core#4.0.1
-Signing Certificate: RSA key for Subject: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us from: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us
-Running Terminology Log: C:\Users\Jose\AppData\Local\Temp\ohfu-fhir-ig-13351153866478324505.html
-Connect to Terminology Server at http://tx.fhir.org                                                  (00:01.240 / 00:10.500, 1Gb)
+Running Terminology Log: C:\Users\josec\AppData\Local\Temp\ohfu-fhir-ig-870275917740363355.html
+Connect to Terminology Server at http://tx.fhir.org                                                  (00:03.062 / 00:25.285, 1Gb)
 [39mLoad Package hl7.fhir.pubpack#0.2.3
 [0;39m[39mLoad Package hl7.fhir.xver-extensions#0.1.0
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.fhir.uv.extensions.r4 from server: https://packages2.fhir.org/packages
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.terminology.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.terminology.r4 from server: https://packages2.fhir.org/packages
 [0;39m[39mLoad Package hl7.terminology.r4#6.5.0
-[0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.2.0
+[0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.3.0-ballot-tc1
 [0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#1.0.0
 [0;39m[39mLoad Package hl7.terminology#5.5.0
 [0;39m[39mLoad Package hl7.fhir.uv.extensions.r4#5.1.0
 [0;39m[39mLoad Package hl7.fhir.uv.cql#1.0.0
 [0;39m[39mLoad Package hl7.fhir.uv.crmi#1.0.0
-[0;39mIgnore Dependency on Core FHIR hl7.fhir.r4.examples#4.0.1, from package 'hl7.fhir.uv.sdc#3.0.0'      (00:05.806 / 00:16.307, 1Gb)
+[0;39mIgnore Dependency on Core FHIR hl7.fhir.r4.examples#4.0.1, from package 'hl7.fhir.uv.sdc#3.0.0'      (00:11.115 / 00:36.401, 1Gb)
 [39mLoad Package hl7.fhir.uv.sdc#3.0.0
 [0;39m[39mLoad Package smart.who.int.base#0.1.0
 [0;39m[39mLoad Package hl7.fhir.uv.tools.r4#0.5.0
 [0;39mLoad R5 Specials
-Initialization complete                                                                              (00:01.404 / 00:17.711, 1Gb)
-Load IG                                                                                              (00:00.001 / 00:17.712, 1Gb)
-Load Content                                                                                         (00:00.001 / 00:17.713, 1Gb)
-Using en-US as the default narrative language. (no language information in Implementation Guide)     (00:00.014 / 00:17.728, 1Gb)
-Process Loaded Resources                                                                             (00:00.029 / 00:17.757, 1Gb)
-Generating Snapshots                                                                                 (00:00.011 / 00:17.769, 1Gb)
-loadPrePages from FetchedFile[C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\includes] as C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\includes
-loadPrePages from FetchedFile[C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\data] as C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\data
-loadPrePages from FetchedFile[C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\pagecontent] as C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\pagecontent
-Fetch http://smart.who.int/dak-pnc/package-list.json for version check                               (00:00.060 / 00:17.829, 1Gb)
-Processing Conformance Resources                                                                     (00:00.095 / 00:17.924, 1Gb)
-Checking Language                                                                                    (00:00.000 / 00:17.925, 1Gb)
-Load Dependency Info                                                                                 (00:00.001 / 00:17.926, 1Gb)
-Load Info                                                                                            (00:00.000 / 00:17.927, 1Gb)
-Load Paths                                                                                           (00:00.000 / 00:17.927, 1Gb)
-Check R4 / R4B                                                                                       (00:00.000 / 00:17.928, 1Gb)
-Assign Comparison Ids                                                                                (00:00.002 / 00:17.931, 1Gb)
-Propagating status                                                                                   (00:00.000 / 00:17.931, 1Gb)
-Generating Narratives                                                                                (00:00.000 / 00:17.932, 1Gb)
-Validating Conformance Resources                                                                     (00:00.015 / 00:17.947, 1Gb)
-[33mError fetching https://packages2.fhir.org/packages/hl7.terminology.r4: Internal Server Error
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.terminology.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.terminology.r4 from server: https://packages2.fhir.org/packages
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4: Internal Server Error
-[0;39m[33mError fetching https://packages2.fhir.org/packages/hl7.fhir.uv.extensions.r4: Internal Server Error
-[0;39m[39mFailed to determine latest version of package hl7.fhir.uv.extensions.r4 from server: https://packages2.fhir.org/packages
-[0;39m[33mError fetching https://packages2.fhir.org/packages/smart.who.int.base: Internal Server Error
-[0;39m[33mError fetching https://packages2.fhir.org/packages/smart.who.int.base: Internal Server Error
-[0;39m[39mFailed to determine latest version of package smart.who.int.base from server: https://packages2.fhir.org/packages
-[0;39mCheck profiles & code systems                                                                        (00:10.824 / 00:28.772, 1Gb)
-Check realm rules                                                                                    (00:00.000 / 00:28.773, 1Gb)
-Previous Version Comparison                                                                          (00:00.000 / 00:28.774, 1Gb)
-Validating Resources                                                                                 (00:00.004 / 00:28.778, 1Gb)
-Processing Provenance Records                                                                        (00:00.000 / 00:28.778, 1Gb)
-Checking for Bundles to sign                                                                         (00:00.000 / 00:28.779, 1Gb)
-Generating Outputs in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output    (00:00.000 / 00:28.780, 1Gb)
-Generate Native Outputs                                                                              (00:00.375 / 00:29.155, 1Gb)
-Run Template                                                                                         (00:00.066 / 00:29.221, 1Gb)
-Generate HTML Outputs                                                                                (00:01.515 / 00:30.736, 1Gb)
-Generate Spreadsheets                                                                                (00:00.071 / 00:30.808, 1Gb)
-Generate Summaries                                                                                   (00:00.001 / 00:30.809, 1Gb)
-Generating Summary Outputs                                                                           (00:00.000 / 00:30.809, 1Gb)
-DB Cumulative Time invested: 00:00:00.85
-Sending Usage Stats to Server                                                                        (00:12.769 / 00:43.578, 1Gb)
-## Memory (MB): Use = 1962, Free = 327, Total = 2290, Max = 4096                                     (00:00.000 / 00:43.579, 1Gb)
-Reclaiming memory...                                                                                 (00:00.001 / 00:43.581, 1Gb)
-## Memory (MB): Use = 870, Free = 1419, Total = 2290, Max = 4096                                     (00:00.179 / 00:43.761, 871Mb)
-Run jekyll: jekyll build --destination "C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output" (in folder C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\temp\pages) (00:00.002 / 00:43.763, 871Mb)
-Due to a known issue, Jekyll errors are lost between Java and Ruby in windows systems.               (00:00.001 / 00:43.765, 871Mb)
-If the build process hangs at this point, you have to go to a                                        (00:00.001 / 00:43.766, 871Mb)
-command prompt, and then run these two commands:                                                     (00:00.000 / 00:43.766, 871Mb)
-                                                                                                     (00:00.000 / 00:43.767, 871Mb)
-cd C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\temp\pages                   (00:00.000 / 00:43.768, 871Mb)
-jekyll build --destination "C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output" (00:00.000 / 00:43.768, 871Mb)
-                                                                                                     (00:00.000 / 00:43.769, 871Mb)
-and then investigate why Jekyll has failed                                                           (00:00.002 / 00:43.772, 871Mb)
-Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.000 / 00:43.773, 871Mb)
-* A failure to produce a fragment that is already logged in the output above                         (00:00.000 / 00:43.774, 871Mb)
-* A reference to a manually edited file that hasn't been provided                                    (00:00.000 / 00:43.774, 871Mb)
-Jekyll: Source: C:/work/release/temp/ig-builds/smart.who.int.dak-pnc#0.9.9-milestone/temp/pages      (00:01.772 / 00:45.547, 872Mb)
-Jekyll: Generating...                                                                                (00:00.001 / 00:45.548, 872Mb)
-Jekyll: done in 1.131 seconds.                                                                       (00:01.129 / 00:46.678, 872Mb)
+Initialization complete                                                                              (00:04.320 / 00:40.721, 1Gb)
+Load IG                                                                                              (00:00.001 / 00:40.722, 1Gb)
+Load Content                                                                                         (00:00.003 / 00:40.726, 1Gb)
+Using en-US as the default narrative language. (no language information in Implementation Guide)     (00:00.032 / 00:40.759, 1Gb)
+Process Loaded Resources                                                                             (00:00.056 / 00:40.815, 1Gb)
+Generating Snapshots                                                                                 (00:00.048 / 00:40.863, 1Gb)
+loadPrePages from FetchedFile[C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\includes] as C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\includes
+loadPrePages from FetchedFile[C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\data] as C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\data
+loadPrePages from FetchedFile[C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\pagecontent] as C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\input\pagecontent
+Signing Certificate: RSA key for Subject: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us from: OU=IG Publisher, L=Ann Arbor, CN=hl7.org, O=HL7, ST=Missouri, C=us
+Fetch http://smart.who.int/dak-pnc/package-list.json for version check                               (00:00.217 / 00:41.081, 1Gb)
+Processing Conformance Resources                                                                     (00:00.412 / 00:41.493, 1Gb)
+Checking Language                                                                                    (00:00.002 / 00:41.495, 1Gb)
+Load Dependency Info                                                                                 (00:00.001 / 00:41.497, 1Gb)
+Load Info                                                                                            (00:00.001 / 00:41.498, 1Gb)
+Load Paths                                                                                           (00:00.001 / 00:41.500, 1Gb)
+Check R4 / R4B                                                                                       (00:00.001 / 00:41.501, 1Gb)
+Assign Comparison Ids                                                                                (00:00.009 / 00:41.511, 1Gb)
+Propagating status                                                                                   (00:00.001 / 00:41.513, 1Gb)
+Generating Narratives                                                                                (00:00.001 / 00:41.515, 1Gb)
+Validating Conformance Resources                                                                     (00:00.038 / 00:41.553, 1Gb)
+Check profiles & code systems                                                                        (00:15.805 / 00:57.358, 773Mb)
+Check realm rules                                                                                    (00:00.003 / 00:57.362, 773Mb)
+Previous Version Comparison                                                                          (00:00.002 / 00:57.365, 773Mb)
+Checking for Bundles to sign                                                                         (00:00.009 / 00:57.375, 773Mb)
+Validating Resources                                                                                 (00:00.000 / 00:57.376, 773Mb)
+Processing Provenance Records                                                                        (00:00.001 / 00:57.377, 773Mb)
+Generating Outputs in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output (00:00.001 / 00:57.378, 773Mb)
+Generate Native Outputs                                                                              (00:00.224 / 00:57.602, 779Mb)
+Run Template                                                                                         (00:00.124 / 00:57.727, 789Mb)
+Generate HTML Outputs                                                                                (00:02.057 / 00:59.784, 826Mb)
+Generate Spreadsheets                                                                                (00:00.123 / 00:59.907, 839Mb)
+Generate Summaries                                                                                   (00:00.001 / 00:59.909, 839Mb)
+Generating Summary Outputs                                                                           (00:00.001 / 00:59.910, 839Mb)
+DB Cumulative Time invested: 00:00:00.135
+Sending Usage Stats to Server                                                                        (00:32.234 / 01:32.144, 1Gb)
+## Memory (MB): Use = 1257, Free = 490, Total = 1748, Max = 4096                                     (00:00.003 / 01:32.147, 1Gb)
+Reclaiming memory...                                                                                 (00:00.002 / 01:32.150, 1Gb)
+## Memory (MB): Use = 822, Free = 925, Total = 1748, Max = 4096                                      (00:00.460 / 01:32.611, 823Mb)
+Run jekyll: jekyll build --destination "C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output" (in folder C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\temp\pages) (00:00.006 / 01:32.617, 823Mb)
+Due to a known issue, Jekyll errors are lost between Java and Ruby in windows systems.               (00:00.005 / 01:32.623, 823Mb)
+If the build process hangs at this point, you have to go to a                                        (00:00.002 / 01:32.625, 823Mb)
+command prompt, and then run these two commands:                                                     (00:00.002 / 01:32.628, 823Mb)
+                                                                                                     (00:00.002 / 01:32.630, 823Mb)
+cd C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\temp\pages  (00:00.002 / 01:32.633, 823Mb)
+jekyll build --destination "C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output" (00:00.002 / 01:32.635, 823Mb)
+                                                                                                     (00:00.003 / 01:32.638, 823Mb)
+and then investigate why Jekyll has failed                                                           (00:00.002 / 01:32.641, 823Mb)
+Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.003 / 01:32.645, 823Mb)
+* A failure to produce a fragment that is already logged in the output above                         (00:00.002 / 01:32.648, 823Mb)
+* A reference to a manually edited file that hasn't been provided                                    (00:00.001 / 01:32.649, 823Mb)
+Jekyll: Source: C:/work/ig-pub_utils/release-pub/temp/ig-builds/smart.who.int.dak-pnc#0.9.9-milestone/temp/pages (00:03.196 / 01:35.846, 824Mb)
+Jekyll: Generating...                                                                                (00:00.002 / 01:35.848, 824Mb)
+Jekyll: done in 2.759 seconds.                                                                       (00:02.756 / 01:38.604, 825Mb)
 [39m
 [0;39m[39mInstalling smart.who.int.dak-pnc#0.9.9
-[0;39mChecking Output HTML                                                                                 (00:00.213 / 00:46.891, 881Mb)
-found 616 files                                                                                      (00:00.009 / 00:46.900, 882Mb)
+[0;39mChecking Output HTML                                                                                 (00:00.456 / 01:39.061, 834Mb)
+found 616 files                                                                                      (00:00.023 / 01:39.084, 835Mb)
 .........................................
 .........................................
-  ... 616 html files, 0 pages invalid xhtml (0%)                                                     (00:00.469 / 00:47.370, 1Gb)
-  ... 1737 links, 0 broken links (0%)                                                                (00:00.000 / 00:47.371, 1Gb)
-Generate fragment-usage-analysis.csv                                                                 (00:00.000 / 00:47.371, 1Gb)
-Build final .zip                                                                                     (00:00.003 / 00:47.375, 1Gb)
-Final .zip built                                                                                     (00:00.766 / 00:48.142, 1Gb)
-Built. Times: loading: 00:00.211, generate: 00:35.064, narrative generation: 00:00.014, validation: 00:10.823, realm-rules: 00:00.000, previous-version: 00:00.000, jekyll: 00:02.925, template: 00:01.524 (#3) (00:04.846 / 00:52.988, 1Gb)
-Generating QA                                                                                        (00:00.001 / 00:52.990, 1Gb)
-Validation output in C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output\qa.html
-Errors: 2, Warnings: 7, Info: 0, Broken Links: 0 (00:00.033 / 00:53.024, 1Gb)
-Finished @ 7/11/25, 9:30 AM. Max Memory Used = 1Gb. Log file saved in c:\temp\fhir-ig-publisher-tmp.log (00:00.003 / 00:53.027, 1Gb)
-Keep a copy of the build directory at C:\work\release\temp\web-root\run-20250711\ig-build-zips\smart.who.int.dak-pnc#0.9.9.zip
+  ... 616 html files, 0 pages invalid xhtml (0%)                                                     (00:01.183 / 01:40.267, 860Mb)
+  ... 1737 links, 0 broken links (0%)                                                                (00:00.001 / 01:40.268, 861Mb)
+Generate fragment-usage-analysis.csv                                                                 (00:00.001 / 01:40.269, 861Mb)
+Build final .zip                                                                                     (00:00.005 / 01:40.275, 861Mb)
+Final .zip built                                                                                     (00:01.846 / 01:42.122, 870Mb)
+Built. Times: loading: 00:00.768, generate: 01:11.621, narrative generation: 00:00.036, validation: 00:15.803, realm-rules: 00:00.002, previous-version: 00:00.000, jekyll: 00:06.009, template: 00:02.081 (#3) (00:10.992 / 01:53.114, 1Gb)
+Generating QA                                                                                        (00:00.002 / 01:53.117, 1Gb)
+Validation output in C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\output\qa.html
+Errors: 2, Warnings: 7, Info: 0, Broken Links: 0 (00:00.050 / 01:53.167, 1Gb)
+Finished @ 8/7/25, 10:35 PM. Max Memory Used = 1Gb. Log file saved in c:\temp\fhir-ig-publisher-tmp.log (00:00.004 / 01:53.172, 1Gb)
+Keep a copy of the build directory at C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\ig-build-zips\smart.who.int.dak-pnc#0.9.9.zip
+Sending usage stats failed: Connection timed out: connect
 
-ok. All checks passed. Publish v0.9.9 to C:\work\release\temp\web-root\run-20250711\dak-pnc\v0.9.9
-Copy the IG to C:\work\release\temp\web-root\run-20250711\dak-pnc\v0.9.9
-Update C:\work\release\temp\web-root\run-20250711\dak-pnc\package-list.json
+ok. All checks passed. Publish v0.9.9 to C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc\v0.9.9
+Copy the IG to C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc\v0.9.9
+Update C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc\package-list.json
 Publish Box Statement: This page is part of the SMART DAK PNC (v0.9.9: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version in its permanent home (it will always be available at this URL).  For a full list of available versions, see the <a data-no-external="true" href="http://smart.who.int/dak-pnc/history.html">Directory of published versions</a>
   .. 34 files checked, 34 updated
   .. 5 clones checked, 10 updated
   .. 1 redirections (1 created/updated)
-This is a milestone release - publish v0.9.9 to C:\work\release\temp\web-root\run-20250711\dak-pnc
+This is a milestone release - publish v0.9.9 to C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc
 Publish Box Statement: This page is part of the SMART DAK PNC (v0.9.9: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="http://smart.who.int/dak-pnc/history.html">Directory of published versions</a>
   .. 34 files checked, 34 updated
   .. 5 clones checked, 10 updated
   .. 1 redirections (1 created/updated)
 Check for Files to delete
   ... 0 files
-Copy to new IG C:\work\release\temp\web-root\run-20250711\dak-pnc
+Copy to new IG C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc
 [Fatal Error] :1:1: Content is not allowed in prolog.
-Unable to process RSS feed C:\work\release\temp\web-root\run-20250711\publication-feed.xml as XML - processing as text instead (Content is not allowed in prolog.)
+Unable to process RSS feed C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\publication-feed.xml as XML - processing as text instead (Content is not allowed in prolog.)
 smart.who.int.dak-pnc (http://smart.who.int/dak-pnc): SMART DAK PNC @ http://worldhealthorganization.github.io/smart-dak-pnc
   release: Releases 0.9.9/4.0.1 @ http://smart.who.int/dak-pnc/v0.9.9
-Build is complete. Copy from C:\work\release\temp\web-root\run-20250711
-Update history page at C:\work\release\temp\web-root\run-20250711\dak-pnc from C:\work\release\history-template and C:\work\release\webroot\templates
+Build is complete. Copy from C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807
+Update history page at C:\work\ig-pub_utils\release-pub\temp\web-root\run-20250807\dak-pnc from C:\work\ig-pub_utils\release-pub\history-template and C:\work\ig-pub_utils\release-pub\webroot\templates

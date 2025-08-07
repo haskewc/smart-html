@@ -13,7 +13,7 @@
   "name" : "DAKPnc",
   "title" : "SMART DAK PNC",
   "status" : "active",
-  "date" : "2025-07-11T09:27:53+02:00",
+  "date" : "2025-08-07T22:29:45+02:00",
   "publisher" : "WHO",
   "contact" : [{
     "name" : "WHO",
@@ -44,7 +44,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.2.0"
+    "version" : "5.3.0-ballot-tc1"
   },
   {
     "id" : "smart_who_int_base",

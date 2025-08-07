@@ -2,10 +2,10 @@ DAKPnc : Validation Results
 =========================================
 
 err = 2, warn = 7, info = 0
-IG Publisher Version: 2.0.8
-Generated Fri Jul 11 09:30:13 CEST 2025. FHIR version 4.0.1 for smart.who.int.dak-pnc#0.9.9 (canonical = http://smart.who.int/dak-pnc)
+IG Publisher Version: 2.0.9 Out of date - current version is 2.0.13
+Generated Thu Aug 07 22:35:21 CEST 2025. FHIR version 4.0.1 for smart.who.int.dak-pnc#0.9.9 (canonical = http://smart.who.int/dak-pnc)
  Build Errors : 0 / 4 / 0
- C:\work\release\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\resources\ImplementationGuide-smart.who.int.dak-pnc : 2 / 3 / 1
+ C:\work\ig-pub_utils\release-pub\temp\ig-builds\smart.who.int.dak-pnc#0.9.9-milestone\fsh-generated\resources\ImplementationGuide-smart.who.int.dak-pnc : 2 / 3 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide

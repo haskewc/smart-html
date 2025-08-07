@@ -14,7 +14,7 @@
   <name value="DAKPnc"/>
   <title value="SMART DAK PNC"/>
   <status value="active"/>
-  <date value="2025-07-11T09:29:20+02:00"/>
+  <date value="2025-08-07T22:33:28+02:00"/>
   <publisher value="WHO"/>
   <contact>
     <name value="WHO"/>
@@ -41,7 +41,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="5.2.0"/>
+    <version value="5.3.0-ballot-tc1"/>
   </dependsOn>
   <dependsOn id="smart_who_int_base">
     <uri value="http://smart.who.int/base/ImplementationGuide/smart.who.int.base"/>
